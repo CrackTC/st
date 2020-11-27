@@ -123,6 +123,9 @@ ushort boxdrawindex(const Glyph *);
 void drawboxes(XftDraw *, int, int, int, int, XftColor *, const XftGlyphFontSpec *, int);
 #endif
 
+// from @LukeSmithxyz
+void externalpipe(const Arg *);
+
 /* config.h globals */
 extern char *utmp;
 extern char *scroll;
