@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:pixelsize=19:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "source code pro:pixelsize=19:antialias=true:autohint=true",
-    "Source Han Sans CN:pixelsize=19:antialias=true:autohint=true",
-    "twemoji:pixelsize=17:antialias=true:autohint=true",
+    "source code pro:pixelsize=18:antialias=true:autohint=true",
+    "Source Han Sans CN:pixelsize=18:antialias=true:autohint=true",
+		"twemoji:pixelsize=18:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
