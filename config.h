@@ -13,7 +13,7 @@ static char *font2[] = {
 		"twemoji:pixelsize=18:antialias=true:autohint=true"
 };
 
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -80,7 +80,7 @@ static unsigned int cursorthickness = 2;
  *    U+2500 - U+259F except dashes, diagonals and shades.
  * 0: disable (render all glyphs normally from the font).
  */
-const int boxdraw = 1;
+const int boxdraw = 0;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
